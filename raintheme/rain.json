@@ -155,10 +155,6 @@
         "PLUM_3": "#e5e5e5",
         "PLUM_9": "#e5e5e5"
  },
-    "background": {
-        "blur": 0.1,
-        "url": "https://raw.githubusercontent.com/rennpy/pyontheme/main/pyonpyon_bg.png"
-    },
   "plus": {
     "version": "0",
     "iconpack": "rosiecord-plumpy"
