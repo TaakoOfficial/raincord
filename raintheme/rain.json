@@ -1,164 +1,100 @@
 {
+  "spec": 3,
+  "version": "1.0.0",
+  "id": "taakoofficial.rain-ios",
+  "display": {
     "name": "rain",
-    "description": "Theme for rain",
+    "description": "The Rain theme, updated for Raincord spec 3 and iOS 27.",
     "authors": [
-        {
-            "name": "LampDelivery",
-            "id": "650805815623680030"
-        }
-    ],
-    "semanticColors": {
-        "HEADER_PRIMARY": [
-            "#dadcde"
-        ],
-        "HEADER_SECONDARY": [
-            "#cccccc"
-        ],
-        "TEXT_NORMAL": [
-            "#e5e5e5"
-        ],
-        "TEXT_MUTED": [
-            "#c1c1c1"
-        ],
-        "MOBILE_TEXT_HEADING_PRIMARY": [
-            "#dadcde"
-        ],
-        "INTERACTIVE_HOVER": [
-            "#403e6f"
-        ],
-        "INTERACTIVE_ACTIVE": [
-            "#f4f4f4"
-        ],
-        "INTERACTIVE_MUTED": [
-            "#53586b"
-        ],
-        "BACKGROUND_PRIMARY": [
-            "#111111"
-        ],
-        "BACKGROUND_SECONDARY": [
-            "#111111"
-        ],
-        "BACKGROUND_SECONDARY_ALT": [
-            "#212121"
-        ],
-        "BACKGROUND_SURFACE_HIGH": [
-            "#141414"
-        ],
-        "CARD_BACKGROUND_DEFAULT": [
-            "#1e1e1e"
-        ],
-        "BACKGROUND_TERTIARY": [
-            "#1e1e1e"
-        ],
-        "BACKGROUND_ACCENT": [
-            "#7e8ecc"
-        ],
-        "BACKGROUND_FLOATING": [
-            "#111111"
-        ],
-        "BACKGROUND_MOBILE_PRIMARY": [
-            "#141414"
-        ],
-        "BACKGROUND_MOBILE_SECONDARY": [
-            "#141414"
-        ],
-        "BACKGROUND_NESTED_FLOATING": [
-            "#111111"
-        ],
-        "BACKGROUND_MESSAGE_HOVER": [
-            "#212121"
-        ],
-        "BACKGROUND_MODIFIER_HOVER": [
-            "#212121"
-        ],
-        "BACKGROUND_MODIFIER_ACTIVE": [
-            "#212121"
-        ],
-        "BACKGROUND_MODIFIER_SELECTED": [
-            "#212121"
-        ],
-        "BACKGROUND_MODIFIER_ACCENT": [
-            "#141414"
-        ],
-        "SCROLLBAR_THIN_THUMB": [
-            "#212121"
-        ],
-        "SCROLLBAR_THIN_TRACK": [
-            "transparent"
-        ],
-        "SCROLLBAR_AUTO_THUMB": [
-            "#4e67ad"
-        ],
-        "SCROLLBAR_AUTO_TRACK": [
-            "#4e67ad"
-        ],
-        "CHANNELTEXTAREA_BACKGROUND": [
-            "#212121"
-        ],
-        "CHANNELS_DEFAULT": [
-            "#4e67ad"
-        ],
-        "TEXT_LINK": [
-            "#4e67ad"
-        ],
-        "TEXT_DANGER": [
-            "#7e8ecc"
-        ],
-        "KEYBOARD": [
-            "#111111"
-        ],
-        "BG_BACKDROP": [
-            "#000000B2"
-        ],
-        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-            "#191919"
-        ],
-        "CHANNEL_ICON": [
-            "#c4c4c4"
-        ],
-        "CHAT_BACKGROUND": [
-            "#141414"
-        ],
-        "CARD_PRIMARY_BG": [
-            "#212121"
-        ]
+      {
+        "name": "LampDelivery",
+        "id": "650805815623680030"
+      }
+    ]
+  },
+  "main": {
+    "type": "dark",
+    "semantic": {
+      "HEADER_PRIMARY": "#DADCDE",
+      "HEADER_SECONDARY": "#CCCCCC",
+      "TEXT_NORMAL": "#E5E5E5",
+      "TEXT_MUTED": "#C1C1C1",
+      "MOBILE_TEXT_HEADING_PRIMARY": "#DADCDE",
+      "INTERACTIVE_HOVER": "#403E6F",
+      "INTERACTIVE_ACTIVE": "#F4F4F4",
+      "INTERACTIVE_MUTED": "#53586B",
+      "BACKGROUND_SECONDARY": "#111111",
+      "BACKGROUND_SECONDARY_ALT": "#212121",
+      "BACKGROUND_SURFACE_HIGH": "#141414",
+      "CARD_BACKGROUND_DEFAULT": "#1E1E1E",
+      "BACKGROUND_TERTIARY": "#1E1E1E",
+      "BACKGROUND_ACCENT": "#7E8ECC",
+      "BACKGROUND_FLOATING": "#111111",
+      "BACKGROUND_MOBILE_PRIMARY": "#141414",
+      "BACKGROUND_MOBILE_SECONDARY": "#141414",
+      "BACKGROUND_NESTED_FLOATING": "#111111",
+      "BACKGROUND_MESSAGE_HOVER": "#212121",
+      "BACKGROUND_MODIFIER_HOVER": "#212121",
+      "BACKGROUND_MODIFIER_ACTIVE": "#212121",
+      "BACKGROUND_MODIFIER_SELECTED": "#212121",
+      "BACKGROUND_MODIFIER_ACCENT": "#141414",
+      "SCROLLBAR_THIN_THUMB": "#212121",
+      "SCROLLBAR_THIN_TRACK": {
+        "type": "raw",
+        "value": "#000000",
+        "opacity": 0
+      },
+      "SCROLLBAR_AUTO_THUMB": "#4E67AD",
+      "SCROLLBAR_AUTO_TRACK": "#4E67AD",
+      "CHANNELTEXTAREA_BACKGROUND": "#212121",
+      "CHANNELS_DEFAULT": "#4E67AD",
+      "TEXT_LINK": "#4E67AD",
+      "TEXT_DANGER": "#7E8ECC",
+      "BG_BACKDROP": {
+        "type": "raw",
+        "value": "#000000",
+        "opacity": 0.698
+      },
+      "REDESIGN_BUTTON_SECONDARY_BACKGROUND": "#191919",
+      "CHANNEL_ICON": "#C4C4C4",
+      "CHAT_BACKGROUND": "#141414",
+      "CARD_PRIMARY_BG": "#212121"
     },
-    "rawColors": {
-        "PRIMARY_500": "#4e67ad",
-        "PRIMARY_100": "#f4f4f4",
-        "PRIMARY_200": "#d0cfef",
-        "PRIMARY_300": "#4e67ad",
-        "PRIMARY_360": "#7e8ecc",
-        "PRIMARY_400": "#7e8ecc",
-        "PRIMARY_600": "#141414",
-        "PRIMARY_630": "#141414",
-        "PRIMARY_660": "#141414",
-        "PRIMARY_700": "#141414",
-        "PRIMARY_800": "#141414",
-        "BLACK_500": "#000000B2",
-        "BRAND_260": "#4e67ad",
-        "BRAND_360": "#4e67ad",
-        "BRAND_500": "#7e8ecc",
-        "BRAND_560": "#7e8ecc",
-        "YELLOW_300": "#4e67ad",
-        "GREEN_600": "#4e67ad",
-        "RED_400": "#7e8ecc",
-        "WHITE_500": "#e0deff",
-        "GREEN_360": "#605d91",
-        "PLUM_23": "#212121",     
-        "PLUM_20": "#111111",
-        "PLUM_18": "#111111",
-        "PLUM_17": "#141414",
-        "PLUM_16": "#4e67ad",
-        "PLUM_13": "#7e8ecc",
-        "PLUM_10": "#c4c4c4",
-        "PLUM_3": "#e5e5e5",
-        "PLUM_9": "#e5e5e5"
- },
+    "raw": {
+      "PRIMARY_500": "#4E67AD",
+      "PRIMARY_100": "#F4F4F4",
+      "PRIMARY_200": "#D0CFEF",
+      "PRIMARY_300": "#4E67AD",
+      "PRIMARY_360": "#7E8ECC",
+      "PRIMARY_400": "#7E8ECC",
+      "PRIMARY_600": "#141414",
+      "PRIMARY_630": "#141414",
+      "PRIMARY_660": "#141414",
+      "PRIMARY_700": "#141414",
+      "PRIMARY_800": "#141414",
+      "BLACK_500": "#000000B2",
+      "BRAND_260": "#4E67AD",
+      "BRAND_360": "#4E67AD",
+      "BRAND_500": "#7E8ECC",
+      "BRAND_560": "#7E8ECC",
+      "YELLOW_300": "#4E67AD",
+      "GREEN_600": "#4E67AD",
+      "RED_400": "#7E8ECC",
+      "WHITE_500": "#E0DEFF",
+      "GREEN_360": "#605D91",
+      "PLUM_23": "#212121",
+      "PLUM_20": "#111111",
+      "PLUM_18": "#111111",
+      "PLUM_17": "#141414",
+      "PLUM_16": "#4E67AD",
+      "PLUM_13": "#7E8ECC",
+      "PLUM_10": "#C4C4C4",
+      "PLUM_3": "#E5E5E5",
+      "PLUM_9": "#E5E5E5"
+    }
+  },
   "plus": {
     "version": "0",
     "iconpack": "rosiecord-plumpy"
-},
-    "spec": 2
-
+  }
 }

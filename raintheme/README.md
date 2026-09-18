@@ -2,6 +2,18 @@
 
 Fully-fledged theme made for rain (will be built-in)! 
 - Supports the most recent versions of discord
+- Updated to Raincord spec 3 for the current iOS mobile build.
+- Omits `KEYBOARD` and `BACKGROUND_PRIMARY` so the native iOS 27 keyboard is not overridden.
+
+## Install
+
+Paste this URL into Raincord's theme installer:
+
+```text
+https://raw.githubusercontent.com/TaakoOfficial/raincord/main/raintheme/rain.json
+```
+
+Run `node validate-rain-theme.mjs` from the repository root to validate the manifest and iOS compatibility rules.
 
 > Credit goes to: <br>
 > Moodle, for helping me make my theme what it is (finding a ton of keys missing in my theme and much more).
